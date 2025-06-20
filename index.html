@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <h1>Bookmark</h1>
+      <div class="input-container">
+        <input type="text" id="bookmark-name" placeholder="Bookmark Name" />
+        <input type="url" id="bookmark-url" placeholder="Bookmark URL" />
+        <input type="text" id="bookmark-tags" placeholder="Tags (comma separated)" />
+        <button id="add-bookmark">Add Bookmark</button>
+        <button id="export-bookmarks">Export</button>
+        <input type="file" id="import-bookmarks" accept=".json" />
+      </div>
+
+      <ul id="bookmark-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
